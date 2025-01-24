@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -18,4 +18,47 @@ section {
 a {
     color: #4e54c8;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    margin-bottom: 1rem;
+}
+video, audio {
+    width: 80%;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
+}
+
+.button {
+    background: #4e54c8; 
+            color: white; 
+            padding: 0.5rem 1rem; 
+            border: none; 
+            border-radius: 20px; 
+            cursor: pointer; 
+            font-size: 1rem; 
+            transition: background 0.3s;
+}
+.button:hover {
+    background: #abadd2;
+}
+
+img {
+    width: 80%;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
 }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./styles/session.css">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <section class="card">
+            <h2>Agenda</h2>
+            <ul>
+                <li><strong>Welcome</strong> (10 mins)</li>
+                <li><strong>Icebreaker Activities</strong></li>
+            </ul>
+            <p>View the workshop introduction slides below:</p>
+            
+    <iframe src="https://docs.google.com/presentation/d/1LDUPWeEjfpCaA_KG9w4lDhyZQil3WohN/embed?start=true&loop=true&delayms=5000" 
+            frameborder="0" width="800" height="585" allowfullscreen>
+        </iframe>
+            
+
+        <p><button class="button" onclick="location.href='index.html'" 
+        onmouseover="this.style.background='#3d42a6'" 
+        onmouseout="this.style.background='#4e54c8'">
+            Back to Main Page
+        </button>
+            </p>
+    </section>
+
+
+    <section class="card">
+        <h2>AI Video Sample</h2>
+        <p>This short video showcases how AI can generate creative outputs to engage students in learning:</p>
+        <div style="text-align: center;">
+        <video controls loop>
+            <source src="./images/elephant.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+        <p>Learn how this video was created using Google VideoFX with the prompt (<a href="https://labs.google/fx/tools/video-fx" target="_blank">LINK</a>):</p>
+        <img src="./images/roseprompt.png" alt="Google VideoFX Prompt">
+    </section>
+    <section class="card">
+        <h2>AI Audio Sample</h2>
+        <p>Listen to this audio sample showcasing AI adapting the podcast style to summarize a book content:</p>
+        <audio controls>
+            <source src="./images/Alice's Adventures in Wonderland.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Learn how this audio was created using Google Illuminate (<a href="https://illuminate.google.com/books" target="_blank">LINK</a>):</p>
+        <img src="./images/alice.png" alt="Google Illuminate Image">
+    </section>
+    <section class="card">
+        <h2>AI Image Sample</h2>
+        <p>This image generator showcases how AI can generate creative QR codes</p>
+        <div style="text-align: center;">
+
+            <img src="./images/elephanqrcode.png" type="image">
+            
+
+    </div>
+        <p>Learn how this image was created using Hugginface Art generator with the prompt (<a href="https://huggingface.co/spaces/huggingface-projects/QR-code-AI-art-generator" target="_blank">LINK</a>):</p>
+        <img src="./images/qrcodeart.png" alt="QRcode ART Prompt">
+    </section>
+</body>
+</html>
